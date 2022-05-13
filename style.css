@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2px;
+  max-width: 90%;
 }
 
 input[type="text"] {
