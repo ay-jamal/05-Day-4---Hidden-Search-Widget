@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  outline: none;
+  transition: 0.9s linear;
+  width: 0;
+  padding: 10px 10px;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  caret-color: blueviolet;
+}
+
+input[type="text"].show-input {
+  width: 200px;
+  transition: width 1s linear;
+}
+
+i {
+  cursor: pointer;
+  font-size: 26px;
+  color: white;
+  border-radius: 5px;
+}
